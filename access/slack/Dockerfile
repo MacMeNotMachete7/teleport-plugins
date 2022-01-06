@@ -9,7 +9,6 @@ COPY go.sum go.sum
 
 # Copy the go source
 COPY access/slack access/slack
-COPY vendor vendor
 COPY lib lib
 
 # Build
